@@ -1,0 +1,170 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+@import "nav";
+
+.box {
+  text-align: center;
+  padding: 8rem;
+  width: 50rem;
+  height: 50rem;
+  margin: 4rem;
+  box-shadow: -2px -4px 8px 0 rgba(0, 0, 0, 0.3),
+    10px 5px 5px rgba(0, 0, 0, 0.4);
+}
+
+.box1 {
+  padding: 4rem;
+  padding-top: 11rem;
+
+  background-image: linear-gradient(
+    to bottom left,
+    rgba(49, 69, 255, 0.2),
+    rgba(0, 81, 128, 0.7)
+  );
+  p {
+    font-size: 2rem;
+    font: medium;
+    text-align: left;
+  }
+}
+.box2 {
+  background-image: url(/arive.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  h1 {
+    background: rgba(255, 255, 255, 0.5);
+
+    padding: 6px;
+  }
+}
+.box3 {
+  background-image: url(/joker.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  h1 {
+    background: rgba(255, 255, 255, 0.5);
+
+    padding: 6px;
+  }
+}
+.box4 {
+  background-image: url(/answer.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  h1 {
+    background: rgba(255, 255, 255, 0.5);
+
+    padding: 6px;
+  }
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: stretch;
+  height: auto;
+}
+
+.section1 {
+  h1 {
+    font-size: 4rem;
+    position: absolute;
+    top: 11rem;
+    left: 15rem;
+    background: rgba(255, 255, 255, 0.4);
+    padding: 10px;
+  }
+
+  .box5 {
+    height: 70rem;
+    background-image: url(/realAnswer.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  height: 70rem;
+  background-image: url(/wise.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  .accordion {
+    position: absolute;
+    top: 25rem;
+    left: 15vw;
+  }
+}
+.accordion {
+  padding: 15px;
+  font-size: 4rem;
+  background: none;
+  color: black;
+  border-radius: 35px;
+  border-width: 3px;
+  border-color: black;
+}
+.accordion:hover {
+  background-color: #ccc;
+}
+.panel {
+  display: none;
+}
+
+.section2 {
+  .accordion {
+    color: rgb(0, 0, 0);
+    border-color: #fff;
+    position: absolute;
+    top: 50rem;
+    left: 30vw;
+    background: rgba(255, 255, 255, 0.6);
+  }
+
+  margin-top: 20vh;
+  h1 {
+    font-size: 4rem;
+    position: absolute;
+    top: 5rem;
+    left: 30vw;
+    background: rgba(255, 255, 255, 0.6);
+    padding: 10px;
+  }
+  .last {
+    position: absolute;
+    top: 25rem;
+    left: 30vw;
+  }
+  .box6 {
+    height: 70rem;
+    background: white;
+    background-image: url(/kis.png);
+    background-position: 50% 65%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    position: relative;
+  }
+  height: 70rem;
+  background-image: url(/gonaKis.png);
+  background-position: 50% 65%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  position: relative;
+}
+@import "mobile";

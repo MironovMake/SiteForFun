@@ -1,0 +1,58 @@
+@media only screen and (max-width: 800px) {
+  /*   For mobile:*/
+  .section1 {
+    height: 70rem;
+
+    .accordion {
+      padding: 10px;
+      font-size: 2.5rem;
+      background: none;
+      color: black;
+      border-radius: 35px;
+      border-width: 3px;
+      border-color: black;
+    }
+  }
+  .section2 {
+    .accordion {
+      padding: 10px;
+      font-size: 2.5rem;
+      color: rgb(0, 0, 0);
+      border-color: #fff;
+      position: absolute;
+      top: 50rem;
+      left: 30vw;
+      background: rgba(255, 255, 255, 0.6);
+    }
+
+    margin-top: 20vh;
+    h1 {
+      font-size: 2rem;
+      position: absolute;
+      top: 5rem;
+      left: 30vw;
+      background: rgba(255, 255, 255, 0.6);
+      padding: 10px;
+    }
+    .last {
+      position: absolute;
+      top: 25rem;
+      left: 30vw;
+    }
+    .box6 {
+      height: 70rem;
+      background: white;
+      background-image: url(/kis.png);
+      background-position: 50% 65%;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      position: relative;
+    }
+    height: 70rem;
+    background-image: url(/gonaKis.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+  }
+}

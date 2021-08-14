@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Обо мне</title>
+    <link rel="stylesheet" type="text/css" href="styles\style.css" />
+    <script src="https://fonts.googleapis.com/css2?family=Roboto&display=swap"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+  </head>
+
+  <body>
+    <header class="main-head">
+      <nav>
+        <h1 id="logo">Обо мне</h1>
+        <ul>
+          <li><a href="https://mir-alek-gen.w3spaces.com/">Расписание</a></li>
+          <li>
+            <a href="https://mir-alek-gen.w3spaces.com/formuls.html">Формулы</a>
+          </li>
+          <li><a href="">Обо мне</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="container">
+      <div class="box1 box">
+        <p>
+          Расширяющиеся границы нашего разума не всегда приносят на спокойствие
+          и удовлетворение? Жизнь становится быстрее, несмотря на то, что мы
+          стали дольше жить. Космос все еще непостижимо огромен и ты не можешь
+          даже взять полный контроль над собственной судьбой. Возникают вопросы
+          от которых убежать все сложнее. Как жить? Зачем? Где взять деньги? Как
+          все успеть? Как стать счастливее?
+        </p>
+      </div>
+      <div class="box2 box">
+        <h1>Александр - мыслитель и деятель</h1>
+      </div>
+      <div class="box3 box">
+        <h1>
+          Неприятности <br />
+          Тоска <br />Безнадега <br />Неопределенность в жизни
+        </h1>
+      </div>
+      <div class="box4 box">
+        <h1>Тебе нужен ОТВЕТ</h1>
+      </div>
+    </div>
+    <div class="section1" id="sec">
+      <input type="button" id="butt" class="accordion" value="Получить ответ" />
+      <div class="panel">
+        <div class="box5">
+          <h1>
+            Ты реально думал(а) тут <br />
+            будет что то умное?
+          </h1>
+        </div>
+      </div>
+    </div>
+    <div class="section2" id="sec">
+      <h1>
+        Ладно, на самом деле<br />
+        секрет прост -<br />
+        не замарачивайся
+      </h1>
+      <input type="button" id="butt" class="accordion" value="И на последок" />
+      <div class="panel">
+        <div class="box6">
+          <h1 class="last">теперь можешь идти</h1>
+        </div>
+      </div>
+    </div>
+    <footer></footer>
+    <script>
+      var acc = document.getElementsByClassName("accordion");
+      var i;
+
+      for (i = 0; i < acc.length; i++) {
+        acc[i].addEventListener("click", function () {
+          this.classList.toggle("active");
+          var panel = this.nextElementSibling;
+          if (panel.style.display === "block") {
+            panel.style.display = "none";
+          } else {
+            panel.style.display = "block";
+          }
+        });
+      }
+    </script>
+  </body>
+</html>

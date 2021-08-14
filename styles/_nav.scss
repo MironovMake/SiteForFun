@@ -1,0 +1,44 @@
+$one: rgb(0, 255, 21);
+$two: #2d0080;
+header {
+  background-image: linear-gradient(to bottom left, $two, $one);
+  color: rgb(255, 249, 249);
+  position: sticky;
+  top: 0px;
+  z-index: 3;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+}
+h1 {
+  font-size: 2.5rem;
+}
+nav {
+  font-family: "Roboto", sans-serif;
+  padding: 1rem;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  min-height: 10vh;
+  flex-wrap: wrap;
+}
+nav ul {
+  display: flex;
+  flex: 1 1 40rem;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+}
+#logo {
+  display: flex;
+  flex: 2 1 40rem;
+  align-items: center;
+}
+footer {
+  z-index: 5;
+  height: 10rem;
+  background-image: linear-gradient(to bottom left, $two, $one);
+}
